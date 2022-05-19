@@ -1,1 +1,5 @@
-
+# Basic common stuff
+pyrogram==1.4.16
+TgCrypto==1.2.3
+pyromod==1.5
+# The potentially banned package goes there...
