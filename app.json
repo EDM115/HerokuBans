@@ -1,7 +1,6 @@
 {
     "name": "Sample",
-    "description": "",
-    "logo": "",
+    "description": "test",
     "keywords": [
         "sample"
     ],
@@ -22,7 +21,6 @@
             "required": true
         }
     },
-    "addons": [],
     "buildpacks": [
         {
             "url": "heroku/python"
