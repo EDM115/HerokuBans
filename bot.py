@@ -14,7 +14,7 @@ SAMPLE = Client(
 SAMPLE.start()
 
 @Client.on_message(filters.command("start"))
-async def start_bot(_, message: Message):
+async def start_bot(client, message):
     await message.reply_text(text=f"Hello {message.from_user.mention}")
     
 SAMPLE.idle()
