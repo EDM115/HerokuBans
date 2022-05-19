@@ -1,1 +1,1 @@
-unzipper: bash start.sh
+worker: bash start.sh
