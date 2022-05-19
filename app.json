@@ -22,7 +22,6 @@
             "required": true
         }
     },
-    /* Fill addons here, such as db */
     "addons": [],
     "buildpacks": [
         {
