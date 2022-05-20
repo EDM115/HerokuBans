@@ -17,7 +17,7 @@ async def main():
     async def start_bot(client, message):
         await message.reply_text(text=f"Hello {message.from_user.mention}")
     
-    SAMPLE.start()
+    await SAMPLE.start()
     
     await idle()
     
